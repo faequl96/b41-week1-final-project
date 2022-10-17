@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dumbways Final Project Week</title>
+    <link rel="stylesheet" href="css/navigasi.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/myProjectForm.css">
+    <link rel="stylesheet" href="css/this.myProject.css">
+    <link rel="stylesheet" href="css/myProjectCard.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/detailProject.css">
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+</head>
+<body>
+    
+    <nav>
+        <div class="kotakNav">
+            <div class="navLeft">
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/dumbways.png" alt="Dumbways Logo" class="logo"></a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a style="font-weight: 600; color: #999; letter-spacing: 1px;">My Project</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div class="navRight">
+                <div>
+                    <a href="contact.html">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="form">    
+        <div class="judul">
+            <h1>ADD MY PROJECT</h1>
+        </div>
+    
+        <form>
+            <div>
+                <label>
+                    Project Name
+                    <input type="text" class="projectName input">
+                </label>
+            </div>
+    
+            <div class="date">
+                <label>
+                    Start Date
+                    <input type="date" class="startDate input">
+                </label>
+                <label>
+                    End Date
+                    <input type="date" class="endDate input">
+                </label>
+            </div>
+            
+            <div>
+                <label>
+                    Description
+                    <textarea name="" class="description input" cols="30" rows="6"></textarea>
+                </label>
+            </div>
+    
+            <div>
+                <label>
+                    Technology
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" class="nodeJs lgcb" value="Node JS">
+                            Node JS
+                        </label>
+                        <label>
+                            <input type="checkbox" class="reactJs lgcb" value="React JS">
+                            React JS
+                        </label>
+                        <label>
+                            <input type="checkbox" class="vueJs lgcb" value="Vue JS">
+                            Vue JS
+                        </label>
+                        <label>
+                            <input type="checkbox" class="typeScript lgcb" value="TypeScript">
+                            TypeScript
+                        </label>
+                    </div>
+                    
+                </label>
+            </div>
+    
+            <div>
+                <label>
+                    Upload Image
+                    <div class="upload">
+                        <div class="choose" style="cursor: pointer;">choose</div>
+                        <img src="img/link.png" alt="Choose Image" class="linkLogo">
+                        <input type="file" accept="image/png, image/jpeg" class="uploadImg" style="visibility:hidden;">
+                    </div>
+                    
+                </label>
+            </div>
+            <div class="submit">
+                <button type="button" class="create">Create</button>
+            </div>
+        </form>
+    </section>
+
+
+    <div class="myProject">
+        <div class="judul">
+            <h1>MY PROJECT</h1>
+        </div>
+
+        <div class="container">
+ 
+        </div>
+    </div>
+
+    <div class="projectDetail" style="display: none;">
+
+    </div>
+    
+
+    
+
+    <script src="js/myProject.js"></script>
+    <script src="js/requiredForMyProjectForm.js"></script>
+    <script src="js/myProjectVisualization.js"></script>
+    <script src="js/myProjectCalcDur.js"></script>
+    <script src="js/myProjectDetail.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.myProject {
+    max-width: 1080px;
+    min-width: 940px;
+    min-height: 700px;
+    border-radius: 7px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    margin: 0 auto 40px;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
